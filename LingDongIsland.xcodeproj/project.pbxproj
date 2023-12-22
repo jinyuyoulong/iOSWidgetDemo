@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951461942B2A995B00689110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461932B2A995B00689110 /* AppDelegate.swift */; };
+		951461962B2A995B00689110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461952B2A995B00689110 /* SceneDelegate.swift */; };
+		951461982B2A995B00689110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461972B2A995B00689110 /* ViewController.swift */; };
+		9514619B2B2A995B00689110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 951461992B2A995B00689110 /* Main.storyboard */; };
+		9514619D2B2A995D00689110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9514619C2B2A995D00689110 /* Assets.xcassets */; };
+		951461A02B2A995D00689110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9514619E2B2A995D00689110 /* LaunchScreen.storyboard */; };
+		951461AE2B2A9C5E00689110 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951461AD2B2A9C5D00689110 /* WidgetKit.framework */; };
+		951461B02B2A9C5E00689110 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951461AF2B2A9C5E00689110 /* SwiftUI.framework */; };
+		951461B32B2A9C5E00689110 /* LingDongIsland_WeigetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461B22B2A9C5E00689110 /* LingDongIsland_WeigetBundle.swift */; };
+		951461B52B2A9C5E00689110 /* LingDongIsland_WeigetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461B42B2A9C5E00689110 /* LingDongIsland_WeigetLiveActivity.swift */; };
+		951461B72B2A9C5E00689110 /* LingDongIsland_Weiget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461B62B2A9C5E00689110 /* LingDongIsland_Weiget.swift */; };
+		951461B92B2A9C6000689110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951461B82B2A9C6000689110 /* Assets.xcassets */; };
+		951461BD2B2A9C6000689110 /* LingDongIsland-WeigetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 951461AB2B2A9C5D00689110 /* LingDongIsland-WeigetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		951461C32B302FE100689110 /* IslandControlPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461C22B302FE100689110 /* IslandControlPage.swift */; };
+		951461C42B302FFD00689110 /* IslandControlPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461C22B302FE100689110 /* IslandControlPage.swift */; };
+		951461C62B329E8700689110 /* CalculateIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951461C52B329E8700689110 /* CalculateIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		951461BB2B2A9C6000689110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 951461882B2A995A00689110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 951461AA2B2A9C5D00689110;
+			remoteInfo = "LingDongIsland-WeigetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		951461C12B2A9C6000689110 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				951461BD2B2A9C6000689110 /* LingDongIsland-WeigetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		951461902B2A995B00689110 /* LingDongIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LingDongIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		951461932B2A995B00689110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		951461952B2A995B00689110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		951461972B2A995B00689110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9514619A2B2A995B00689110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9514619C2B2A995D00689110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9514619F2B2A995D00689110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		951461A12B2A995D00689110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951461AB2B2A9C5D00689110 /* LingDongIsland-WeigetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LingDongIsland-WeigetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		951461AD2B2A9C5D00689110 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		951461AF2B2A9C5E00689110 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		951461B22B2A9C5E00689110 /* LingDongIsland_WeigetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingDongIsland_WeigetBundle.swift; sourceTree = "<group>"; };
+		951461B42B2A9C5E00689110 /* LingDongIsland_WeigetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingDongIsland_WeigetLiveActivity.swift; sourceTree = "<group>"; };
+		951461B62B2A9C5E00689110 /* LingDongIsland_Weiget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingDongIsland_Weiget.swift; sourceTree = "<group>"; };
+		951461B82B2A9C6000689110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		951461BA2B2A9C6000689110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951461C22B302FE100689110 /* IslandControlPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandControlPage.swift; sourceTree = "<group>"; };
+		951461C52B329E8700689110 /* CalculateIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateIntent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9514618D2B2A995B00689110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951461A82B2A9C5D00689110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951461B02B2A9C5E00689110 /* SwiftUI.framework in Frameworks */,
+				951461AE2B2A9C5E00689110 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		951461872B2A995A00689110 = {
+			isa = PBXGroup;
+			children = (
+				951461922B2A995B00689110 /* LingDongIsland */,
+				951461B12B2A9C5E00689110 /* LingDongIsland-Weiget */,
+				951461AC2B2A9C5D00689110 /* Frameworks */,
+				951461912B2A995B00689110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		951461912B2A995B00689110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				951461902B2A995B00689110 /* LingDongIsland.app */,
+				951461AB2B2A9C5D00689110 /* LingDongIsland-WeigetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		951461922B2A995B00689110 /* LingDongIsland */ = {
+			isa = PBXGroup;
+			children = (
+				951461932B2A995B00689110 /* AppDelegate.swift */,
+				951461952B2A995B00689110 /* SceneDelegate.swift */,
+				951461972B2A995B00689110 /* ViewController.swift */,
+				951461C22B302FE100689110 /* IslandControlPage.swift */,
+				951461992B2A995B00689110 /* Main.storyboard */,
+				9514619C2B2A995D00689110 /* Assets.xcassets */,
+				9514619E2B2A995D00689110 /* LaunchScreen.storyboard */,
+				951461A12B2A995D00689110 /* Info.plist */,
+			);
+			path = LingDongIsland;
+			sourceTree = "<group>";
+		};
+		951461AC2B2A9C5D00689110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				951461AD2B2A9C5D00689110 /* WidgetKit.framework */,
+				951461AF2B2A9C5E00689110 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		951461B12B2A9C5E00689110 /* LingDongIsland-Weiget */ = {
+			isa = PBXGroup;
+			children = (
+				951461B22B2A9C5E00689110 /* LingDongIsland_WeigetBundle.swift */,
+				951461B42B2A9C5E00689110 /* LingDongIsland_WeigetLiveActivity.swift */,
+				951461B62B2A9C5E00689110 /* LingDongIsland_Weiget.swift */,
+				951461C52B329E8700689110 /* CalculateIntent.swift */,
+				951461B82B2A9C6000689110 /* Assets.xcassets */,
+				951461BA2B2A9C6000689110 /* Info.plist */,
+			);
+			path = "LingDongIsland-Weiget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9514618F2B2A995B00689110 /* LingDongIsland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951461A42B2A995D00689110 /* Build configuration list for PBXNativeTarget "LingDongIsland" */;
+			buildPhases = (
+				9514618C2B2A995B00689110 /* Sources */,
+				9514618D2B2A995B00689110 /* Frameworks */,
+				9514618E2B2A995B00689110 /* Resources */,
+				951461C12B2A9C6000689110 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				951461BC2B2A9C6000689110 /* PBXTargetDependency */,
+			);
+			name = LingDongIsland;
+			productName = LingDongIsland;
+			productReference = 951461902B2A995B00689110 /* LingDongIsland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		951461AA2B2A9C5D00689110 /* LingDongIsland-WeigetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 951461BE2B2A9C6000689110 /* Build configuration list for PBXNativeTarget "LingDongIsland-WeigetExtension" */;
+			buildPhases = (
+				951461A72B2A9C5D00689110 /* Sources */,
+				951461A82B2A9C5D00689110 /* Frameworks */,
+				951461A92B2A9C5D00689110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LingDongIsland-WeigetExtension";
+			productName = "LingDongIsland-WeigetExtension";
+			productReference = 951461AB2B2A9C5D00689110 /* LingDongIsland-WeigetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		951461882B2A995A00689110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9514618F2B2A995B00689110 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					951461AA2B2A9C5D00689110 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9514618B2B2A995A00689110 /* Build configuration list for PBXProject "LingDongIsland" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 951461872B2A995A00689110;
+			productRefGroup = 951461912B2A995B00689110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9514618F2B2A995B00689110 /* LingDongIsland */,
+				951461AA2B2A9C5D00689110 /* LingDongIsland-WeigetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9514618E2B2A995B00689110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951461A02B2A995D00689110 /* LaunchScreen.storyboard in Resources */,
+				9514619D2B2A995D00689110 /* Assets.xcassets in Resources */,
+				9514619B2B2A995B00689110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951461A92B2A9C5D00689110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951461B92B2A9C6000689110 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9514618C2B2A995B00689110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951461982B2A995B00689110 /* ViewController.swift in Sources */,
+				951461942B2A995B00689110 /* AppDelegate.swift in Sources */,
+				951461962B2A995B00689110 /* SceneDelegate.swift in Sources */,
+				951461C32B302FE100689110 /* IslandControlPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951461A72B2A9C5D00689110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951461C62B329E8700689110 /* CalculateIntent.swift in Sources */,
+				951461B52B2A9C5E00689110 /* LingDongIsland_WeigetLiveActivity.swift in Sources */,
+				951461B72B2A9C5E00689110 /* LingDongIsland_Weiget.swift in Sources */,
+				951461B32B2A9C5E00689110 /* LingDongIsland_WeigetBundle.swift in Sources */,
+				951461C42B302FFD00689110 /* IslandControlPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		951461BC2B2A9C6000689110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 951461AA2B2A9C5D00689110 /* LingDongIsland-WeigetExtension */;
+			targetProxy = 951461BB2B2A9C6000689110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		951461992B2A995B00689110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9514619A2B2A995B00689110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9514619E2B2A995D00689110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9514619F2B2A995D00689110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		951461A22B2A995D00689110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		951461A32B2A995D00689110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		951461A52B2A995D00689110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC644759CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LingDongIsland/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okstar.ss.LingDongIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		951461A62B2A995D00689110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC644759CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LingDongIsland/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okstar.ss.LingDongIsland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		951461BF2B2A9C6000689110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC644759CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LingDongIsland-Weiget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LingDongIsland-Weiget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.okstar.ss.LingDongIsland.LingDongIsland-Weiget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		951461C02B2A9C6000689110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UC644759CZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LingDongIsland-Weiget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LingDongIsland-Weiget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.okstar.ss.LingDongIsland.LingDongIsland-Weiget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9514618B2B2A995A00689110 /* Build configuration list for PBXProject "LingDongIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951461A22B2A995D00689110 /* Debug */,
+				951461A32B2A995D00689110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951461A42B2A995D00689110 /* Build configuration list for PBXNativeTarget "LingDongIsland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951461A52B2A995D00689110 /* Debug */,
+				951461A62B2A995D00689110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		951461BE2B2A9C6000689110 /* Build configuration list for PBXNativeTarget "LingDongIsland-WeigetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				951461BF2B2A9C6000689110 /* Debug */,
+				951461C02B2A9C6000689110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 951461882B2A995A00689110 /* Project object */;
+}
